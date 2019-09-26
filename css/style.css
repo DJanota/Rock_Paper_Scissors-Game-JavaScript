@@ -1,3 +1,40 @@
+body {
+    background-color: #2F4566;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
 .container {
-  padding: 15px;
+    padding: 20px;
+}
+
+.label-default {
+    background-color: #555555;
+}
+
+.label-info {
+    background-color: #75ACFF;
+}
+
+.label-danger {
+    background-color: #A80B2A;
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #555555;
+    color: #fff;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 30px;
+    }
 }
