@@ -1,95 +1,103 @@
-<!DOCTYPE html> 
-    <head> 
-        <meta charset="utf-8"> 
-        <title>9.7 - First Game</title> 
-        <link rel="stylesheet" href="css/style.css"> 
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /> <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
-    </head> 
-    <body> 
-        <div class="container"> 
-            <h3 class="text-center">
-                Welcome to the game 
-                <span class="label label-default">Rock</span> 
-                <span class="label label-info">Paper</span> 
-                <span class="label label-danger">Scissors</span> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors-Game-JavaScript</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>WELCOME TO THE GAME</h1>
+            <h3>
+                <span class="label label-default">Rock</span>
+                <span class="label label-info">Paper</span>
+                <span class="label label-danger">Scissors</span>
             </h3>
         </div>
-        <div id="js-newGameElement" class="container"> 
-            <div class="row text-center"> 
-                <button id="js-newGameButton" class="btn btn-default"> 
-                    New game 
-                </button> 
-            </div> 
+    </div>
+    <div id="js-newGameElement" class="container">
+        <div class="row text-center">
+            <button id="js-newGameButton" class="btn btn-default">
+                New Game
+            </button>
         </div>
-        <div id="js-playerPickElement" class="container"> 
-          <div class="row text-center"> 
-            <button id="js-playerPick_rock" class="btn"> 
-              <span class="badge"> 
-                <i class="fa fa-hand-rock-o" aria-hidden="true"></i> 
-              </span> 
-              Rock 
-            </button> 
-            <button id="js-playerPick_paper" class="btn"> 
-              <span class="badge"> 
-                <i class="fa fa-hand-paper-o" aria-hidden="true"></i> 
-              </span> 
-              Paper 
-            </button> 
-            <button id="js-playerPick_scissors" class="btn"> 
-              <span class="badge"> 
-                <i class="fa fa-hand-scissors-o" aria-hidden="true"></i> 
-              </span> 
-              Scissors 
-            </button> 
-          </div> 
+    </div>
+    <div id="js-playerPickElement" class="container">
+        <div class="row text-center">
+            <button id="js-playerPick_rock" class="btn">
+                <span class="badge">
+                    <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+                </span>
+                Rock
+            </button>
+            <button id="js-playerPick_paper" class="btn">
+                <span class="badge">
+                    <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+                </span>
+                Paper
+            </button>
+            <button id="js-playerPick_scissors" class="btn">
+                <span class="badge">
+                    <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+                </span>
+                Scissors
+            </button>
         </div>
-        <div id="js-resultsTableElement" class="container"> 
-          <div class="row"> 
-            <div class="col-xs-5 text-center"> 
-              <span id="js-playerPoints" class="badge"> 
-                0 
-              </span> 
-              <span id="js-playerName"> 
-                Player Name 
-              </span> 
-            </div> 
-            <div class="col-xs-2 text-center"> 
-              VS. 
-            </div> 
+    </div>
+    <div id="js-resultsTableElement" class="container">
+        <div class="row">
             <div class="col-xs-5 text-center">
-              <span id="js-computerPoints" class="badge"> 
-                0 
-              </span> 
-              Computer 
-            </div> 
-          </div> 
-          <div class="row"> 
-            <div class="col-xs-5 text-center"> 
-              <span id="js-playerPick"> 
-                Player selection 
-              </span> 
-            </div> 
-            <div class="col-xs-2"></div> 
-            <div class="col-xs-5 text-center"> 
-              <span id="js-computerPick"> 
-                Computer selection 
-              </span> 
-            </div> 
-          </div> 
-          <div class="row"> 
-            <div class="col-xs-5 text-center"> 
-              <span id="js-playerResult"> 
-                Player Score 
-              </span> 
-            </div> 
-            <div class="col-xs-2"></div> 
-            <div class="col-xs-5 text-center"> 
-              <span id="js-computerResult"> 
-                Computer Score 
-              </span> 
-            </div> 
-          </div> 
+                <span id="js-playerPoints" class="badge">
+                    0
+                </span>
+                <span id="js-playerName">
+                    Player
+                </span>
+            </div>
+            <div class="col-xs-2 text-center">
+                VS.
+            </div>
+            <div class="col-xs-5 text-center">
+                <span id="js-computerPoints" class="badge">
+                    0
+                </span>
+                Computer
+            </div>
         </div>
-        <script src="js/scripts.js"></script> 
-    </body> 
-</html>
+        <div class="row">
+            <div class="col-xs-5 text-center">
+                <span id="js-playerPick">
+                    selection
+                </span>
+            </div>
+            <div class="col-xs-2"></div>
+            <div class="col-xs-5 text-center">
+                <span id="js-computerPick">
+                    selection
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-5 text-center">
+                <span id="js-playerResult">
+                    score
+                </span>
+            </div>
+            <div class="col-xs-2"></div>
+            <div class="col-xs-5 text-center">
+                <span id="js-computerResult">
+                    score
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body></html>
