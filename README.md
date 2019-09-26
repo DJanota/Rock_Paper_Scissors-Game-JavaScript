@@ -3,10 +3,10 @@
 
 Technologie: HTML5, CSS3, Bootstrap, Font Awesome, JavaScript.
 
-GitHub: https://djanota.github.io/Rock_Paper_Scissors-Game-JavaScript/ 
+GitHub-link: https://djanota.github.io/Rock_Paper_Scissors-Game-JavaScript/ 
 
 (PL) Klasyczna gra - 'Kamień', 'Papier', 'Nożyce'. Gra sklada się z dowolnej liczby rund. Koniec rozgrywki następuje, gdy jeden z zawodników zdobędzie 10 punktów. Remis nie daje punktów, a wygrana daje 1 punkt dla zwycięzcy danej rundy. Tuż po uruchomienu strony gracz widzi tytuł gry oraz przycisk 'New Game'. Po kliknięciu przycisku 'New Game', użytkownik zostaje poproszony o podanie swojego imienia. Następnie gra zostanie uruchomiona, a na ekranie zamiast przycisku 'New Game' pojawią się przyciski 'Rock', 'Paper', 'Scissors' oraz tabela przedstawiająca wybór graczy (kto co wybrał), a także rezultat danej rundy. W tabeli zostanie wyświetlone imię gracza oraz przeciwnika, w tym wypadku ma to być 'Computer', oraz uzyskany wynik. Po zdobyciu przez któregoś gracza 10 punktów zamiast przycisków 'Rock', 'Paper', 'Scissors' pojawi się napis "The winner is [Nazwa Gracza]", a poniżej przycisk 'Once Again' o takiej samej funkcjonalności jak przycisk 'New Game'. Projekt został stworzony w celu nauki języka programowania JavaScript.
 
 Technologie: HTML5, CSS3, Bootstrap, Font Awesome, JavaScript.
 
-GitHub: https://djanota.github.io/Rock_Paper_Scissors-Game-JavaScript/
+GitHub-link: https://djanota.github.io/Rock_Paper_Scissors-Game-JavaScript/
